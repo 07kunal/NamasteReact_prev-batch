@@ -1,0 +1,8 @@
+react js is just the library of javascript. we have cdn link through which we can access the react in cod 
+these are:-
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+~
+
+and hence this become the shortage program of react js in HTML.

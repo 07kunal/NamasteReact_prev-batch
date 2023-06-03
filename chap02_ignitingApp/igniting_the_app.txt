@@ -1,0 +1,54 @@
+chapter 2 igniting the app
+key points:-
+-making our app better
+-virtual Dom
+-ignite app , make our app to deploy on production.
+
+Question : how amasing would it be that we build our own create app in react JS?
+// create our own 
+we need the following things to make production ready.
+minify the file of our app,
+bundle the dependencies
+and server 
+inshort - minify-app,optimisation, bundle of app , clean the console, and server
+//Bundler: webpack, parcel, vite. 
+->parcel is easy to learn faste from vite. all the Bundler uses same approach to optimise the code etc.
+//package
+-> it's like predefine code that we use in out app, by installing it. but we need package-manager
+to manage such file.
+
+how to initialise the node package manager ( not offical name by the company)
+npm init -y
+npm install -D parcel( bundler)
+//what is package-lock.json and devDependencies?
+-> devDependencies are used in development enviroment.
+->package-lock: it basically specify the exact version of exiting package in our project. which help us to maintain the project on production mode.
+
+what is node_modules?
+->when we install the require packages into our project then they install into the node_modules but the specific package which we install depend upon the other packages and install other packages as well as per availability.
+
+what is the new way to install the react into project apart from the cdn links?
+-> npm install react
+
+how to ignite our app to percel app.
+npx parcel index.html(entry point)
+//what parcel do?
+->created a server/ enable the hot module replacement
+->HMR - Hot module replacement
+->file watcher algorithm
+Bundling
+minify
+cleaning our code
+dev and production build
+super fast build algorithm
+image optimisation
+caching while development
+compression some file name
+compatble with older version of browser
+it also give the functionality to work on HTTPS on dev enviroment
+port number with different project create
+consistant hashing algorithms
+zero config
+
+
+//Note :- We have our package manager which will hold or take care of our transitive dependencies.

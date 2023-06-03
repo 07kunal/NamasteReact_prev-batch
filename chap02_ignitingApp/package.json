@@ -1,0 +1,20 @@
+{
+  "name": "namaste-chapter01-react",
+  "version": "1.0.0",
+  "description": "This is the tutorial for learning react/igniting the app",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Namaste_Akshay_Kunal",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
