@@ -1,6 +1,6 @@
 
 # adding node module here
 
-./node_modules
-./.parcel-cache
-./dist
+/node_modules
+/.parcel-cache
+/dist
