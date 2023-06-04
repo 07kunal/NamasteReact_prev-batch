@@ -52,3 +52,10 @@ zero config
 
 
 //Note :- We have our package manager which will hold or take care of our transitive dependencies.
+
+//note :- to remove anything from the git ignore file
+git rm -r --cached node_modules
+
+git commit -am "node_modules be gone!"
+
+git push origin master
