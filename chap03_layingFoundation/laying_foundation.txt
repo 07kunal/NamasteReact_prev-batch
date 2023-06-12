@@ -1,0 +1,5 @@
+what does babel do ? 
+Ans:-
+babel read whole code
+remove console while forming build
+convert jsx code into react.createElement format

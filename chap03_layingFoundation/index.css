@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  background: #0f0f0f;
+  color: #fff;
+}
+.navbar .logo {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.navbar .menuList {
+  margin-right: 20px;
+}
+.menuList .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+.menuList .list li{
+    padding: 8px 12px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.searchBar .search{
+    padding: 8px 12px;
+    border-radius: 18px;
+}
